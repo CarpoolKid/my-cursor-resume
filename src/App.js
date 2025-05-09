@@ -54,6 +54,7 @@ function Resume() {
             <p className="job-duration">March 2024 - Present</p>
           </div>
           <ul>
+            <li>2025 Quota Attainment (YTD): 112% | 2024 Quota Attainment: 120%</li>
             <li>Lead full sales cycle for ~50 accounts across Northern and Southern California, managing two SDRs and prioritizing top 25 accounts based on ICP and historical performance</li>
             <li>Drive $4M pipeline growth through strategic account management and Salesforce optimization, collaborating with Operations to leverage existing client relationships for expansion opportunities</li>
             <li>Achieved $8.7M Total Contract Value with 22 new logos, representing 83% of total revenue</li>
