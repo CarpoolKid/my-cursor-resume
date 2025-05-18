@@ -588,3 +588,68 @@ body, .App {
 .theme-toggle-btn .moon {
   color: #b0b0ff;
 }
+
+.ryde-portfolio {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+  background: var(--color-card-bg);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+.ryde-portfolio h2, .ryde-portfolio h3, .ryde-portfolio h4 {
+  margin-top: 0.5em;
+}
+.ryde-portfolio ul, .ryde-portfolio ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+.ryde-portfolio hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.quick-access {
+  position: fixed;
+  right: 110px;
+  top: 43%;
+  transform: translateY(-50%);
+  background: var(--color-card-bg);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid var(--color-card-border);
+  z-index: 100;
+}
+
+.quick-access h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.quick-access ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-access li {
+  margin-bottom: 8px;
+}
+
+.quick-access a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.quick-access a:hover {
+  color: var(--color-accent);
+}
