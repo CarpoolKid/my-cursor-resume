@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import StartupTimeline from './components/StartupTimeline';
 
 function LandingPage() {
   const [mouse, setMouse] = useState({ x: 50, y: 50 });
@@ -232,36 +233,7 @@ function RydePortfolio() {
       <p>It was one of the most difficult, but ultimately rewarding transitions I made as a founder.</p>
       <h3 id="timeline">⏳ Timeline</h3>
       <hr />
-      <h4>Q1 – Q4 2022</h4>
-      <ul>
-        <li><strong>Team Founded</strong> – Formed with two technical cofounders.</li>
-        <li><strong>MVP Launched (Web)</strong> – Initial version built and launched to early users.</li>
-        <li><strong>Accepted into Summer Accelerator</strong> – Secured $10,000 in non-dilutive funding.</li>
-        <li><strong>iOS App Built</strong> – Developed in preparation for broader launch.</li>
-        <li><strong>Waitlist Strategy Implemented</strong> – Built anticipation and gathered early interest.</li>
-        <li><strong>Advisory Board Formed</strong> – Recruited experienced advisors (Ex-Airbnb, former CTO, former CMO).</li>
-      </ul>
-      <h4>Q4 2022</h4>
-      <ul>
-        <li><strong>iOS App Launch</strong> – First mobile version released.</li>
-        <li><strong>Traction Achieved</strong> – Over <strong>400 bookings</strong> and <strong>125,000+ miles</strong> traveled cumulatively.</li>
-      </ul>
-      <h4>Q1 2023</h4>
-      <ul>
-        <li><strong>Continued Growth</strong> – Surpassed <strong>600 bookings</strong> and <strong>370,000+ miles</strong> traveled.</li>
-        <li><strong>Revenue Milestone</strong> – Hit <strong>$2,000 MRR</strong>.</li>
-        <li><strong>Referral Program Launched</strong> – Boosted signups by <strong>68%</strong>.</li>
-        <li><strong>Android App Released</strong> – Expanded reach to a wider user base.</li>
-      </ul>
-      <h4>Q2 2023</h4>
-      <ul>
-        <li><strong>User & Revenue Growth</strong> – <strong>1,100+ bookings</strong>, <strong>650,000+ miles</strong>, and <strong>$2,800 MRR</strong>.</li>
-        <li><strong>Funding Secured</strong> – Raised <strong>$125,000</strong> through investment and grants.</li>
-      </ul>
-      <h4>Q3 2023</h4>
-      <ul>
-        <li><strong>Operations Concluded</strong> – Startup shut down in <strong>July 2023</strong> after final growth phase.</li>
-      </ul>
+      <StartupTimeline />
       <h3 id="kpis">📈 Key Performance Indicators (KPIs)</h3>
       <hr />
       <h4>🔹 Monthly Bookings</h4>
