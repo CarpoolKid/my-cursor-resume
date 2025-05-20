@@ -685,7 +685,7 @@ body, .App {
 .quick-access {
   position: fixed;
   right: 110px;
-  top: 43%;
+  top: 44%;
   transform: translateY(-50%);
   background: var(--color-card-bg);
   padding: 16px;
@@ -693,6 +693,23 @@ body, .App {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border: 1px solid var(--color-card-border);
   z-index: 100;
+  max-width: 125px;
+  width: 100%;
+}
+
+@media (max-width: 1400px) {
+  .quick-access {
+    right: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .quick-access {
+    position: static;
+    transform: none;
+    margin: 20px auto;
+    max-width: 100%;
+  }
 }
 
 .quick-access h4 {
@@ -717,6 +734,8 @@ body, .App {
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.2s;
+  display: block;
+  padding: 4px 0;
 }
 
 .quick-access a:hover {
